@@ -251,6 +251,12 @@ p2 {
         width: 100% !important;
         height: 250px;
     }
+    iframe {
+        width: 100%;
+    }
+    #img {
+        width: 100%;
+    }
 }
 
 /* Height Responsive */
