@@ -172,6 +172,17 @@ p2 {
     }
 }
 
+/* Height Responsive */
+
+@media screen and (max-height: 300px) {
+    .about {
+        margin-top: 5%;
+    }
+    #selfie {
+        width: 100px !important;
+    }
+}
+
 /* Portfolio Content Section */
 /* Portfolio */
 
@@ -205,6 +216,23 @@ p2 {
 
 /* Width responsive */
 
+@media screen and (max-width: 1400px) {
+    .portfolio {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        overflow: auto;
+    }
+    #video {
+        width: 100% !important;
+        height: 250px;
+    }
+    #blog {
+        width: 100% !important;
+        height: 250px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .portfolio {
         height: 60%;
@@ -212,17 +240,24 @@ p2 {
         top: 20%;
         overflow: auto;
     }
-
 }
 
 @media screen and (max-width: 700px) {
     #video {
-        width: 200px !important;
+        width: 100% !important;
         height: 250px;
     }
     #blog {
-        width: 200px !important;
+        width: 100% !important;
         height: 250px;
+    }
+}
+
+/* Height Responsive */
+
+@media screen and (max-height: 300px) {
+    .portfolio {
+        margin-top: 5%;
     }
 }
 
@@ -267,4 +302,32 @@ p2 {
 .contact :focus {
     background: gray;
     color: white;
+}
+
+/* Width responsive */
+
+@media screen and (max-width: 991px) {
+    .contact {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .contact {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        overflow: auto;
+    }
+}
+
+/* Height Responsive */
+
+@media screen and (max-height: 300px) {
+    .contact {
+        margin-top: 5%;
+    }
 }
